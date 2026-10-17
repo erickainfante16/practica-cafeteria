@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Café Luna</h1>
+        <p>El mejor café del condado hecho con amor</p>
+        <a href="#contacto">Reservar mesa</a>
+    </header>
+        
+    <section>
+        <h2>¿Por qué elegirnos?</h2>
+        <ul>
+            <li>☕ Café artesanal</li>
+            <li>🥐 Pan recién horneado</li>
+            <li>📶 WiFi gratis</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Nuestro Menú</h2>
+        <!-- Cambiado a "tarjetas" para coincidir con tu CSS -->
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="icono">☕</div>
+                <h3>Latte de la casa</h3>
+                <p>Expresso doble con leche</p>
+                <span class="precio">$55</span>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono">🥐</div>
+                <h3>Croissant con mantequilla</h3>
+                <p>Horneado cada mañana</p>
+                <span class="precio">$40</span>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono">🍰</div>
+                <h3>Pastel de zanahoria</h3>
+                <p>Con betún de queso crema</p>
+                <span class="precio">$65</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Reserva tu mesa</h2>
+        <form>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            <button type="submit" id="enviar">Enviar</button>
+            <p id="mensaje"></p>
+        </form>
+    </section>
+
+    <!-- Conexión al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

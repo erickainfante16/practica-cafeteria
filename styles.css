@@ -1,0 +1,93 @@
+/* Base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Portada */
+  header {
+    background-color: #82589F;
+    color: #fff;
+    padding: 80px 20px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  /* Botón */
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #D6A2E8;
+    padding: 12px 28px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ED4C67;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 50px 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  /* Tarjetas */
+  .tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 900px;
+    margin: 30px auto 0;
+  }
+  
+  .tarjeta {
+    width: 240px;
+    padding: 30px 20px;
+    background: #fff;
+    border: 2px solid transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  }
+  
+  .tarjeta:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.25);
+  }
+  .icono{
+    font-size: 48px;
+  }
+
+  .precio{
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color:#FFC312;
+  }
+
+  /*FORMULARIO*/
+  input, button{
+    padding: 10px;
+    font-size: 16px;
+  }
+  button{
+    background-color: #1289A7;
+    border: none;
+    color:#fff;
+    border-radius: 6px;
+  }
